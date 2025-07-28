@@ -1,0 +1,30 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 300px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-panel {
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  background: #f9f9f9;
+  position: relative;
+}
+
+.canvas-panel {
+  position: relative;
+  background: #ffffff;
+}
+
+.right-panel {
+  border-left: 1px solid #ddd;
+  padding: 1rem;
+  background: #fafafa;
+  overflow-y: auto;
+}
